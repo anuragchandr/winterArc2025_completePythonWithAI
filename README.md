@@ -118,18 +118,6 @@ This roadmap is designed around a simple, effective loop: **Learn a concept -> P
 
 ---
 
-## Daily Progress Log
-
-I’ll use this section to track progress, day by day. Each entry will have the date, what I worked on, and the link to my LinkedIn post for that day.
-
-### First 10 Days
-- **Day 1 (01-Oct-2025):** [Your notes here] - [Link to Post]()
-
-
-*(I’ll extend this week by week until Day 120.)*
-
----
-
 ## Why This Challenge?
 I am an ECE student at NIT Patna, and I want to go beyond classroom learning by applying what I know.
 This challenge is not just about writing code. It’s about discipline, building real things, and creating a visible track record of growth.
