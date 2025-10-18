@@ -1,4 +1,5 @@
-# DAY [X] - Error Handling with `try`, `except`, and `finally`
+# DAY 17 
+
 
 ## `try`, `except`, and `finally` Blocks
 
