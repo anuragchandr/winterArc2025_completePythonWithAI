@@ -24,7 +24,7 @@ Goals:
 
 This roadmap is designed around a simple, effective loop: **Learn a concept -> Practice it in isolation -> Apply it to a project.**
 
-### Phase 1: Python Mastery (Days 1-30)
+### **Phase 1: Python Mastery (Days 1-30)**
 
 **Goal:** Build unshakeable confidence in Python by focusing on one core concept at a time and immediately applying it.
 
@@ -49,7 +49,7 @@ This roadmap is designed around a simple, effective loop: **Learn a concept -> P
     * **Action:** Learn to save data to `.txt` and `.json` files. Learn to fetch data from the web using the `requests` library.
     * **Project:** Finish and polish the Blackjack game. The last three days are for **review and refactoring only**. No new topics.
 
-### Phase 2: The Data Science Toolkit (Days 31-60)
+### __Phase 2: The Data Science Toolkit (Days 31-60)__
 **Goal:** Get comfortable manipulating and visualizing data—the bedrock of all AI/ML.
 
 * **Week 5 (Days 31-37): NumPy**
@@ -66,34 +66,82 @@ This roadmap is designed around a simple, effective loop: **Learn a concept -> P
     * **Action:** Spend the week with **Matplotlib** and **Seaborn**. Learn to make bar charts, line plots, histograms, and scatter plots.
     * **Project:** Use the dataset from last week and create a variety of insightful visualizations.
 
-* **Week 8 (Days 52-60): First Data Project & Review**
-    * **Focus:** Consolidate all your data skills.
-    * **Action:** The first four days are dedicated to your first real data project.
-    * **Project:** Complete the **Nobel Prize Data Analysis** from start to finish: cleaning, manipulating, and visualizing. The rest of the week is for **review and exploring** another dataset of your choice.
+* **Week 8 (Days 52-60): Statistical Foundations & Inference**
+    * **Focus:** Core statistical concepts for data analysis and ML — visualization, summary statistics, probability, and hypothesis testing.
+    * **Action:** Short theory + hands-on code examples each day (use a notebook). Apply tests to a small dataset on the last day.
+    * **Project:** Mini analysis notebook on Day 60: compute summaries, visualize distributions, run a hypothesis test, and summarise findings.
 
-### Phase 3: Applied Machine Learning (Days 61-90)
-**Goal:** Understand the core concepts of ML and build your first predictive models from scratch.
 
-* **Week 9 (Days 61-67): Intro to ML & Regression**
-    * **Focus:** Grasp the core vocabulary and your first algorithm.
-    * **Action:** Spend three days on theory: Supervised vs. Unsupervised learning, train-test split, and the Scikit-Learn library.
-    * **Project:** Spend the rest of the week understanding and building a **Linear Regression** model for the **Salary Predictor** project.
 
-* **Week 10 (Days 68-74): Classification**
-    * **Focus:** Learn how to predict categories.
-    * **Action:** Spend a few days learning the theory behind **Logistic Regression** and **K-Nearest Neighbors (KNN)**.
-    * **Project:** Build a **Classification Model** for a dataset like the famous Iris flowers or a simple spam detector.
 
-* **Week 11 (Days 75-81): Model Evaluation & Improvement**
-    * **Focus:** Learn how to know if your model is actually good.
-    * **Action:** This week is dedicated to theory. Learn about **Confusion Matrices, Accuracy, Precision, and Recall**. Learn the basics of **Feature Engineering**. No new projects, just apply these concepts to your previous models.
+---
 
-* **Week 12 (Days 82-90): Capstone & Wrap-up**
-    * **Focus:** Solidify your learning and prepare your portfolio.
-    * **Action:** Learn one more advanced algorithm, like **Random Forest**.
-    * **Project:** The entire last week is for a **Final Capstone Project**. You can choose to expand one of your previous projects (like the House Price Predictor) or start a new one. The final day is for writing a blog post or a detailed summary of your 90-day journey.
+## **Phase 3: Applied Machine Learning (Days 61–90)**
 
-### Phase 4: Deep Dive and Expansion (Days 91-120)
+**Goal:** Build solid ML foundations, understand multiple algorithms, learn model tuning, explore unsupervised learning, apply SQL for data work, and finish with an NLP project.
+
+---
+
+### **Week 9 (Days 61–67): ML Foundations, EDA, Data Prep & First Projects**
+
+**Focus:** Understand the complete ML pipeline end-to-end before touching advanced algorithms.
+**Action:**
+
+* Start with: What is ML, types of ML, real applications, traditional programming vs ML, AI vs ML vs DL
+* Learn the full ML workflow: EDA → Cleaning → Preprocessing → Feature Engineering → Feature Selection
+* Build two introductory ML projects from scratch following the video.
+
+**Project:** Recreate **Project 1** and **Project 2** with full pipeline, documentation, and evaluation.
+
+---
+
+### **Week 10 (Days 68–74): Regression Deep Dive & Optimization**
+
+**Focus:** Master Linear Regression beyond the “Scikit-Learn shortcut.”
+**Action:**
+
+* Learn: Regression theory, cost function, gradient descent, convergence theorem, hyperplanes
+* Implement regression manually and with Scikit-Learn
+* Understand overfitting/underfitting with real examples
+
+**Project:** Two Regression Projects — one simple, one with more complex preprocessing — analyzing model behavior deeply.
+
+---
+
+### **Week 11 (Days 75–81): Classification — Multiple Algorithms + Full Project**
+
+**Focus:** Learn how ML models classify data and compare multiple algorithms.
+**Action:**
+
+* Learn: Logistic Regression, Log Loss, KNN, Naive Bayes, Decision Trees, SVM
+* Implement each algorithm from scratch (as per video)
+* Learn evaluation techniques (Accuracy, Precision, Recall, F1 etc.) through hands-on examples
+
+**Project:** Build a **multi-model classification pipeline**, compare all algorithms, and integrate a simple frontend view (as done in the video).
+
+---
+
+### **Week 12 (Days 82–90): Model Tuning, Ensembles, Unsupervised ML, SQL & NLP Capstone**
+
+**Focus:** Move from basic ML to practical, production-ready techniques.
+**Action:**
+
+* Learn tuning techniques: Cross-validation, Grid Search CV, Random Search CV
+* Study and implement ensemble methods: Bagging, Boosting, Stacking, AdaBoost, Gradient Boost, XGBoost
+* Explore unsupervised learning: K-Means, DBSCAN, PCA
+* Master SQL fundamentals for ML workflows: CRUD, Joins, Constraints, Views, Procedures
+* Finish with a full NLP workflow
+
+**Project:**
+
+* **Final Capstone 1:** SQL mini-exercises + relational querying
+* **Final Capstone 2:** NLP Emotion Detection Project using preprocessing → TF-IDF → ML model → evaluation.
+* Final day: Document your 30-day journey and prepare a polished project portfolio.
+
+---
+
+
+## __Phase 4: Deep Dive and Expansion (Days 91-120)__
 **Goal:** Explore advanced topics, expand your skillset, and refine your portfolio.
 
 * **Week 13 (Days 91-97): Advanced Machine Learning Models**
